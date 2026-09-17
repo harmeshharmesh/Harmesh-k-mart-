@@ -7,22 +7,32 @@
 
   /* ------------------------------------------------------------ icons */
   const ICON = {
-    search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>',
+    search:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>',
     bag: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>',
-    heart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>',
+    heart:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>',
     user: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>',
     menu: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>',
-    close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>',
+    close:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>',
     star: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2Z"/></svg>',
-    trash: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg>',
-    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>',
-    alert: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="13"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>',
+    trash:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg>',
+    check:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>',
+    alert:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="13"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>',
     info: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="11"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>',
-    logout: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>',
-    shield: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 9 8 11 4.6-2 8-6 8-11V5l-8-3Z"/></svg>',
+    logout:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>',
+    shield:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 9 8 11 4.6-2 8-6 8-11V5l-8-3Z"/></svg>',
     box: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8l9 5 9-5Z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>',
-    mapPin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>',
-    settings: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg>'
+    mapPin:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>',
+    settings:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg>',
   };
 
   /* ------------------------------------------------------------ core helpers */
@@ -43,16 +53,24 @@
 
   function stars(rating) {
     const r = Math.round(Number(rating || 0));
-    return ICON.star.repeat(0) + Array.from({ length: 5 }, (_, i) =>
-      `<span style="opacity:${i < r ? 1 : .25}">${ICON.star}</span>`
-    ).join("");
+    return (
+      ICON.star.repeat(0) +
+      Array.from(
+        { length: 5 },
+        (_, i) =>
+          `<span style="opacity:${i < r ? 1 : 0.25}">${ICON.star}</span>`,
+      ).join("")
+    );
   }
 
   async function api(path, options) {
     options = options || {};
     const opts = Object.assign({ credentials: "same-origin" }, options);
     if (opts.body && typeof opts.body !== "string") {
-      opts.headers = Object.assign({ "Content-Type": "application/json" }, opts.headers || {});
+      opts.headers = Object.assign(
+        { "Content-Type": "application/json" },
+        opts.headers || {},
+      );
       opts.body = JSON.stringify(opts.body);
     }
     let res;
@@ -62,9 +80,14 @@
       throw new Error("Unable to connect to server.");
     }
     let data = null;
-    try { data = await res.json(); } catch (e) { /* empty body */ }
+    try {
+      data = await res.json();
+    } catch (e) {
+      /* empty body */
+    }
     if (!res.ok) {
-      const msg = (data && (data.message || data.error)) || "Something went wrong.";
+      const msg =
+        (data && (data.message || data.error)) || "Something went wrong.";
       throw new Error(msg);
     }
     return data;
@@ -86,7 +109,12 @@
     const stack = ensureToastStack();
     const el = document.createElement("div");
     el.className = "toast " + type;
-    const icon = type === "success" ? ICON.check : type === "error" ? ICON.alert : ICON.info;
+    const icon =
+      type === "success"
+        ? ICON.check
+        : type === "error"
+          ? ICON.alert
+          : ICON.info;
     el.innerHTML = icon + `<span>${escapeHtml(message)}</span>`;
     stack.appendChild(el);
     setTimeout(() => {
@@ -111,14 +139,20 @@
   async function requireAuth(redirectTo) {
     const user = await getMe();
     if (!user) {
-      window.location.href = "/login.html" + (redirectTo ? "?next=" + encodeURIComponent(redirectTo) : "");
+      window.location.href =
+        "/login.html" +
+        (redirectTo ? "?next=" + encodeURIComponent(redirectTo) : "");
       return null;
     }
     return user;
   }
 
   async function logout() {
-    try { await api("/api/auth/logout", { method: "POST" }); } catch (e) { /* ignore */ }
+    try {
+      await api("/api/auth/logout", { method: "POST" });
+    } catch (e) {
+      /* ignore */
+    }
     _meCache = null;
     window.location.href = "/login.html";
   }
@@ -127,7 +161,7 @@
   const NAV_LINKS = [
     { href: "/home.html", label: "Home", key: "home" },
     { href: "/home.html#shop", label: "Shop", key: "shop" },
-    { href: "/orders.html", label: "Orders", key: "orders" }
+    { href: "/orders.html", label: "Orders", key: "orders" },
   ];
 
   function navLinkHtml(link, active) {
@@ -141,9 +175,9 @@
     mount.innerHTML = `
       <header class="site-header">
         <div class="container nav-inner">
-          <a href="/home.html" class="brand"><span>🛍️</span> Shop<span class="dot">Sphere</span></a>
+          <a href="/home.html" class="brand"><span>🛍️</span> Harmesh<span class="dot">K-mart</span></a>
           <nav class="nav-links" aria-label="Primary">
-            ${NAV_LINKS.map(l => navLinkHtml(l, activeKey)).join("")}
+            ${NAV_LINKS.map((l) => navLinkHtml(l, activeKey)).join("")}
           </nav>
           <form class="nav-search" id="navSearchForm" role="search">
             <span aria-hidden="true">${ICON.search}</span>
@@ -160,7 +194,7 @@
         </div>
       </header>
       <div class="mobile-drawer" id="mobileDrawer">
-        ${NAV_LINKS.map(l => `<a href="${l.href}">${l.label}</a>`).join("")}
+        ${NAV_LINKS.map((l) => `<a href="${l.href}">${l.label}</a>`).join("")}
         <a href="/wishlist.html">Wishlist</a>
         <a href="/cart.html">Cart</a>
         <a href="/profile.html">Profile</a>
@@ -172,7 +206,8 @@
     form.addEventListener("submit", (e) => {
       e.preventDefault();
       const q = document.getElementById("navSearchInput").value.trim();
-      window.location.href = "/home.html" + (q ? "?q=" + encodeURIComponent(q) : "") + "#shop";
+      window.location.href =
+        "/home.html" + (q ? "?q=" + encodeURIComponent(q) : "") + "#shop";
     });
 
     // mobile drawer
@@ -201,15 +236,25 @@
         ${user.role === "ADMIN" ? `<a href="/admin.html">Admin dashboard</a>` : ""}
         <a href="#" id="mobileLogoutBtn">Log out</a>`;
       document.getElementById("logoutBtn").addEventListener("click", logout);
-      document.getElementById("mobileLogoutBtn").addEventListener("click", (e) => { e.preventDefault(); logout(); });
+      document
+        .getElementById("mobileLogoutBtn")
+        .addEventListener("click", (e) => {
+          e.preventDefault();
+          logout();
+        });
 
       // cart badge
       try {
         const items = await api("/api/cart");
         const count = (items || []).reduce((s, i) => s + (i.quantity || 0), 0);
         const badge = document.getElementById("cartBadge");
-        if (count > 0) { badge.hidden = false; badge.textContent = count > 99 ? "99+" : count; }
-      } catch (e) { /* not logged in / ignore */ }
+        if (count > 0) {
+          badge.hidden = false;
+          badge.textContent = count > 99 ? "99+" : count;
+        }
+      } catch (e) {
+        /* not logged in / ignore */
+      }
     } else {
       authArea.innerHTML = `
         <a href="/login.html" class="btn btn-ghost btn-sm">Log in</a>
@@ -230,7 +275,7 @@
         <div class="container">
           <div class="footer-grid">
             <div>
-              <a href="/home.html" class="brand"><span>🛍️</span> Shop<span class="dot">Sphere</span></a>
+              <a href="/home.html" class="brand"><span>🛍️</span> Harmesh<span class="dot">K-mart</span></a>
               <p class="text-muted u-mt-4" style="max-width:32ch;font-size:var(--fs-sm)">A modern shopping destination for quality products, curated categories, and a smooth checkout experience.</p>
             </div>
             <div>
@@ -291,8 +336,9 @@
 
   /* ------------------------------------------------------------ skeleton grid */
   function skeletonCards(n) {
-    return Array.from({ length: n || 8 }, () =>
-      `<div class="skeleton skel-card"></div>`
+    return Array.from(
+      { length: n || 8 },
+      () => `<div class="skeleton skel-card"></div>`,
     ).join("");
   }
 
@@ -323,7 +369,10 @@
 
   async function toggleWishlist(id, isActive, btn) {
     const user = await getMe();
-    if (!user) { window.location.href = "/login.html"; return; }
+    if (!user) {
+      window.location.href = "/login.html";
+      return;
+    }
     try {
       if (isActive) {
         await api("/api/wishlist/" + id, { method: "DELETE" });
@@ -341,12 +390,20 @@
 
   async function addToCart(id, qty) {
     try {
-      await api("/api/cart/" + id + "?quantity=" + (qty || 1), { method: "POST" });
+      await api("/api/cart/" + id + "?quantity=" + (qty || 1), {
+        method: "POST",
+      });
       toast("Added to cart", "success");
       refreshCartBadge();
     } catch (e) {
-      toast(e.message === "Login required" ? "Please log in to add items to your cart." : e.message, "error");
-      if (e.message === "Login required") setTimeout(() => window.location.href = "/login.html", 700);
+      toast(
+        e.message === "Login required"
+          ? "Please log in to add items to your cart."
+          : e.message,
+        "error",
+      );
+      if (e.message === "Login required")
+        setTimeout(() => (window.location.href = "/login.html"), 700);
     }
   }
 
@@ -356,9 +413,15 @@
     try {
       const items = await api("/api/cart");
       const count = (items || []).reduce((s, i) => s + (i.quantity || 0), 0);
-      if (count > 0) { badge.hidden = false; badge.textContent = count > 99 ? "99+" : count; }
-      else { badge.hidden = true; }
-    } catch (e) { /* not logged in */ }
+      if (count > 0) {
+        badge.hidden = false;
+        badge.textContent = count > 99 ? "99+" : count;
+      } else {
+        badge.hidden = true;
+      }
+    } catch (e) {
+      /* not logged in */
+    }
   }
 
   function wireProductGrid(container) {
@@ -372,15 +435,33 @@
       const wishBtn = e.target.closest("[data-wishlist-btn]");
       if (wishBtn) {
         e.preventDefault();
-        toggleWishlist(wishBtn.dataset.id, wishBtn.classList.contains("active"), wishBtn);
+        toggleWishlist(
+          wishBtn.dataset.id,
+          wishBtn.classList.contains("active"),
+          wishBtn,
+        );
       }
     });
   }
 
   global.SS = {
-    ICON, escapeHtml, money, stars, api, toast,
-    getMe, requireAuth, logout,
-    renderHeader, renderFooter, confirmDialog, skeletonCards,
-    productCardHtml, toggleWishlist, addToCart, refreshCartBadge, wireProductGrid
+    ICON,
+    escapeHtml,
+    money,
+    stars,
+    api,
+    toast,
+    getMe,
+    requireAuth,
+    logout,
+    renderHeader,
+    renderFooter,
+    confirmDialog,
+    skeletonCards,
+    productCardHtml,
+    toggleWishlist,
+    addToCart,
+    refreshCartBadge,
+    wireProductGrid,
   };
 })(window);
